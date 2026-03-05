@@ -1,0 +1,69 @@
+Speaker 1 (Clara Onboarding Specialist - Bharat): Hi Ben, thanks again for joining the onboarding call today. Now that you've decided to move forward with Clara, we'll configure the AI receptionist specifically for your business.
+
+Speaker 2 (Ben): Sounds good. I'm excited to get this running.
+
+Speaker 1: Great. Let's start with your business hours so we know when the AI should schedule appointments versus handle after-hours calls.
+
+Speaker 2: Sure. Our regular business hours are Monday to Friday from 8:00 AM to 5:00 PM. We’re closed on weekends unless it's an emergency.
+
+Speaker 1: Perfect. And just to confirm, what timezone are you operating in?
+
+Speaker 2: We're in Mountain Time since we’re based in Calgary.
+
+Speaker 1: Got it. Now let’s confirm your office location for the system.
+
+Speaker 2: The office address is 17119 Sundown Road SE, Calgary, Alberta, T2X 3D4.
+
+Speaker 1: Perfect. Next we’ll talk about emergency calls. Earlier you mentioned power outages and sparking outlets as urgent situations. Is that correct?
+
+Speaker 2: Yes, exactly. Those are definitely emergencies.
+
+Speaker 1: If Clara detects an emergency call after hours, who should the system try to transfer the call to first?
+
+Speaker 2: It should transfer directly to the technician on call.
+
+Speaker 1: And if the technician doesn’t answer?
+
+Speaker 2: Then it should call me directly.
+
+Speaker 1: Understood. We'll configure that as the fallback routing. Now let's talk about call transfer behavior. If the AI tries to transfer a call to the technician, how long should it wait before assuming the transfer failed?
+
+Speaker 2: Let's say 60 seconds.
+
+Speaker 1: Okay, and if the call fails, should it try again?
+
+Speaker 2: Yes, retry once.
+
+Speaker 1: And what message should the system say if the transfer fails?
+
+Speaker 2: Something like: "I'm sorry, I couldn't reach the technician right now. I'll take your details and have someone call you back shortly."
+
+Speaker 1: Perfect. Now for non-emergency calls during business hours, the AI will collect customer name, phone number, address, and schedule service visits. Does that match how you normally operate?
+
+Speaker 2: Yes, that's exactly what I want.
+
+Speaker 1: If a customer calls with a billing question or invoice issue, who should that go to?
+
+Speaker 2: For now it can just collect the information and send it to me. I handle billing.
+
+Speaker 1: Great. Now let's confirm your CRM integration. You mentioned earlier that you're using Jobber to manage customers and jobs.
+
+Speaker 2: Yes, Jobber is our main system.
+
+Speaker 1: Perfect. We'll configure Clara so that when a new caller books a service visit, the job gets created inside Jobber automatically.
+
+Speaker 2: That would save me a lot of time.
+
+Speaker 1: One more question: are there any types of jobs you definitely don't want the AI to book?
+
+Speaker 2: Yes actually. We don't handle generator installations anymore, so if someone calls about generators the AI should politely say we don't provide that service.
+
+Speaker 1: Got it. We'll add that as a service restriction.
+
+Speaker 1: Finally, during after-hours calls, if the issue is not an emergency, the AI will collect the caller's details and inform them that someone will follow up during the next business day. Does that sound correct?
+
+Speaker 2: Yes, that's perfect.
+
+Speaker 1: Excellent. That covers the main configuration. We'll now finalize the setup and generate your AI receptionist configuration.
+
+Speaker 2: Awesome. Looking forward to seeing it live.
